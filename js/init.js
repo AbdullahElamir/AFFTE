@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /* Final Countdown Settings
 ------------------------------------------------------ */
-	var finalDate = '2016/01/01';
+	var finalDate = '2015/04/17';
 
 	$('div#counter').countdown(finalDate)
    	.on('update.countdown', function(event) {
@@ -114,51 +114,51 @@ jQuery(document).ready(function($) {
 /*	gmaps settings
 ------------------------------------------------------*/
 
-   var map;
+ //   var map;
 
-   // main directions
-   map = new GMaps({
-      el: '#map', 
-      lat: 14.549072, 
-      lng: 121.046958, 
-      zoom: 14, 
-      zoomControl : true,
-      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, 
-      panControl : false, 
-      scrollwheel: false
-   });
+ //   // main directions
+ //   map = new GMaps({
+ //      el: '#map', 
+ //      lat: 14.549072, 
+ //      lng: 121.046958, 
+ //      zoom: 14, 
+ //      zoomControl : true,
+ //      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, 
+ //      panControl : false, 
+ //      scrollwheel: false
+ //   });
 
-   map.drawOverlay({
-	   lat: map.getCenter().lat(),
-	   lng: map.getCenter().lng(),
-	   content: '<i class="fa fa-map-marker"></i>',
-	   verticalAlign: 'top',
-	   horizontalAlign: 'center'
-	});
+ //   map.drawOverlay({
+	//    lat: map.getCenter().lat(),
+	//    lng: map.getCenter().lng(),
+	//    content: '<i class="fa fa-map-marker"></i>',
+	//    verticalAlign: 'top',
+	//    horizontalAlign: 'center'
+	// });
 
-   // The styles below present a simplified map. 
-   // If you would like to use a normal coloured map, then please remove or comment the code below, from lines 128 to 148.
-	var mapStyles = [
-	   {
-	      featureType: "road",
-	      elementType: "geometry",
-	      stylers: [{
-	         lightness: 100
-	      }, {
-	         visibility: "simplified"
-	      }]
-	   }, {
-	      featureType: "road",
-	      elementType: "labels",
-	      stylers: [{
-	         visibility: "off"
-	      }]
-	   }
-	];
+ //   // The styles below present a simplified map. 
+ //   // If you would like to use a normal coloured map, then please remove or comment the code below, from lines 128 to 148.
+	// var mapStyles = [
+	//    {
+	//       featureType: "road",
+	//       elementType: "geometry",
+	//       stylers: [{
+	//          lightness: 100
+	//       }, {
+	//          visibility: "simplified"
+	//       }]
+	//    }, {
+	//       featureType: "road",
+	//       elementType: "labels",
+	//       stylers: [{
+	//          visibility: "off"
+	//       }]
+	//    }
+	// ];
 	
-	map.setOptions({
-	   styles: mapStyles
-	});
+	// map.setOptions({
+	//    styles: mapStyles
+	// });
 
    // map.addMarker({ 
  		// lat: map.getCenter().lat(),
@@ -218,11 +218,11 @@ jQuery(document).ready(function($) {
 /* equal to the browser height.
 ------------------------------------------------------ */
 
-   $('#intro, #map').css({ 'height': $(window).height() });
+   // $('#intro, #map').css({ 'height': $(window).height() });
    $(window).on('resize', function() {
 
-        $('#intro, #map').css({ 'height': $(window).height() });
-        $('body').css({ 'width': $(window).width() })
+        // $('#intro, #map').css({ 'height': $(window).height() });
+        // $('body').css({ 'width': $(window).width() })
 
         $("#intro").backstretch("images/header-background.jpg");
    });
