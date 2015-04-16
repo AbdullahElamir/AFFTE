@@ -88,11 +88,11 @@ jQuery(document).ready(function($) {
 /*----------------------------------------------------*/
 /* FitText Settings
 ------------------------------------------------------ */
-   setTimeout( function() {
+   // setTimeout( function() {
 
-	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
+	  //  $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
 	   
-   }, 100);
+   // }, 100);
 
 /*----------------------------------------------------*/
 /* Final Countdown Settings
