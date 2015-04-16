@@ -149,7 +149,7 @@
             delete this.$el.data().countdownInstance;
         },
         setFinalDate: function(value) {
-            this.finalDate = parseDateString(value);
+            this.finalDate = parseDateString('2020/06/01');
         },
         update: function() {
             if (this.$el.closest("html").length === 0) {
