@@ -93,7 +93,7 @@ header #logo {
 #nav-wrap > a:before {   
 	font-family: 'FontAwesome';
    content: "\f0c9";
-   color: #fff;
+   color: #f4ee60;
    margin: 0;
    font-size: 25px;
    line-height: 54px;
@@ -167,10 +167,10 @@ ul#nav li.current a { color: #1E732D; }
 	text-align: center;	
 }
 #main h1 {
-	font: 42px/1.2em 'montserrat-bold', sans-serif;	
+	font: 42px/1.5em 'montserrat-bold', sans-serif;	
 	color: #fff;
 	margin-bottom: 18px;	
-	padding: 0 10%;
+	padding: -40px 10%;
 	text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);	
 }
 #main p {	
@@ -191,7 +191,7 @@ ul#nav li.current a { color: #1E732D; }
 /* counter */
 #main #counter {
 	width: 75%;
-	color: #fff;
+	color: #000000;
 	text-align: center;
 	margin: 18px auto 0;
 }

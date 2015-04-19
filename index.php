@@ -40,7 +40,11 @@
   ================================================== -->
   <section id="intro">
    	<header class="row">	 
-			
+			<div id="logo" >
+				<a href="#" >
+          <img src="images/logo.png" alt="Zoon">                  
+        </a>					
+			</div>
 		   <nav id="nav-wrap">
 		      <a class="menu-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 			   <a class="menu-btn" href="#" title="Hide navigation">Hide navigation</a>
@@ -53,22 +57,15 @@
    	<div  id="main" class="row">
 	   	<div class="twelve columns">
         <div class="col-lg-12">
-
-	   		<h1 style=' font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size:50px; color:#f4ee60'> 
+	   		<h1 style=' font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size:40px; '> 
           قريــــبا إفتتـــاح الموقع الرئيسي للأتحــاد العربي للتعليم التقنــي</h1>
-        <h5 style=' font-family: Arial,Helvetica Neue,Helvetica,sans-serif; font-size:30px; color:#66aa43'>الوقــت المتبقي للنشــر</h5>
+        <h5 >الوقــت المتبقي للنشــر</h5>
 	   		<div id="counter" class="cf">
 	   			<span>134 <em>days</em></span> 
  					<span>12 <em>hours</em></span>
 					<span>50 <em>minutes</em></span>
  					<span>33 <em>seconds</em></span>
    			</div>	
-        <br>
-        <div id="logo" >
-        <a href="#" >
-          <img src="images/logo.png" alt="Zoon">                  
-        </a>          
-      </div>
         </div>				
    			<!-- Begin MailChimp Signup Form -->
         <div id="mc_embed_signup">
@@ -112,12 +109,16 @@
 			<div class="row contact-details">		           		         
         <div class="columns">
 				   <h3><i class="fa fa-home"></i>Address.</h3>
-				   <p> طرابــلس/ ليبيا
+				   <p>5th Avenue, Fort Bonifacio<br>
+						Taguig, Metro Manila <br>
+						Philippines
 					</p>
         </div> 
         <div class="columns">
 				  <h3><i class="fa fa-phone"></i>Phone Numbers.</h3>
-				  
+				  <p>Phone: (000) 777 1515<br>
+				    Mobile: (000) 777 0100<br>
+				   	Fax: (000) 777 0101
 				  </p>
         </div>	 
         <div class="columns end">
@@ -136,7 +137,7 @@
       <div class="twelve columns">            
         <ul class="copyright">
           <li>&copy; Copyright 2015</li>
-          <li>برمجة وتطوير <a title="Styleshout" href=""> إدارة المعاهد </a></li>          
+          <li>Design by <a title="Styleshout" href="">Styleshout</a></li>          
         </ul>
       </div>          
     </div>
