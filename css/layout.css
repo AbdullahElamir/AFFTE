@@ -445,7 +445,7 @@ footer .copyright li {
    display: inline;
 }
 footer .copyright li:before {
-    content: "\2022";
+    content: "";
     padding-left: 6px;
     padding-right: 10px;
     color: #1B6728;

@@ -102,10 +102,10 @@ jQuery(document).ready(function($) {
 	$('div#counter').countdown(finalDate)
    	.on('update.countdown', function(event) {
 
-   		$(this).html(event.strftime('<span>%D <em>days</em></span>' + 
-   										 	 '<span>%H <em>hours</em></span>' + 
-   										 	 '<span>%M <em>minutes</em></span>' +
-   										 	 '<span>%S <em>seconds</em></span>'));
+   		$(this).html(event.strftime('<span>%D <em><h3>الايــام</h3></em></span>' + 
+   										 	 '<span>%H <em><h3>الســاعات</h3></em></span>' + 
+   										 	 '<span>%M <em><h3>الدقــائق</h3></em></span>' +
+   										 	 '<span>%S <em><h3>الثــواني</h3></em></span>'));
 
    });  
 
