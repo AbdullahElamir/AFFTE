@@ -1,0 +1,12 @@
+2015-01-01 - Version 1.2
+As of Jan 01, 2015 this theme is mainined and supported by FlexiThemes.com. Only the theme meta data was updtaed therefore upgrading from the previous version is not required.
+
+2014-05-10 - Version 1.1
+As WordPress version 3.9 shortcodes are not working because of the new way of displaying the buttons in the post/page editor. Therefore, the shortcodes features is removed from our themes.
+Upgrading instructions: Upgrading is not necessary and the theme should work with no problem, but you can follow the below steps to remove the shortcodes from your theme and keep your theme instalation up to date. We made also some improvements. Updated files are mentioned in the below upgrading instructions.
+* Re-upload the following files from the new version to your current theme folder: functions.php, lib/Admin.php, lib/Themater.php, lib/default-admin-options.php, lib/widgets/facebook.php, includes/aboutus.php (if exists), includes/social_profiles.php (if exists), includes/featuredposts/featuredposts.php (if exists)
+* Edit your style.css and update the version number to the current you are seeing above.
+* Delete the following folder: lib/shortcodes/
+
+2014-04-18 - Version 1.0
+* Initial theme release!
